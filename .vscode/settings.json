@@ -1,0 +1,18 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  "prettier.documentSelectors": ["**/*.astro"],
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Associate .astro with the Astro language mode
+  "files.associations": {
+    "*.astro": "astro"
+  },
+
+  "eslint.validate": ["javascript", "javascriptreact", "astro", "typescript", "typescriptreact"]
+}
