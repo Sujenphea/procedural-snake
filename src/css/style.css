@@ -25,7 +25,7 @@ body {
 @media (scripting: enabled) {
   .loading::before,
   .loading::after {
-    content: '';
+    content: "";
     position: fixed;
     z-index: 10000;
   }
@@ -109,11 +109,10 @@ a:focus:focus-visible {
   justify-items: start;
   grid-template-columns: auto auto auto 1fr;
   grid-template-areas:
-    'title title title title'
-    'back archive github ...'
-    'demos demos demos demos'
-    'tags tags tags tags'
-    'sponsor sponsor sponsor sponsor';
+    "title title title title"
+    "back archive github ..."
+    "tags tags tags tags"
+    "sponsor sponsor sponsor sponsor";
 }
 
 .frame #cdawrap {
@@ -169,21 +168,20 @@ a:focus:focus-visible {
     left: 0;
     width: 100%;
     grid-template-columns: auto auto auto auto 1fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto 1fr;
     align-content: space-between;
     grid-template-areas:
-      'title back github archive demos'
-      'tags tags tags sponsor sponsor';
+      "title back github archive ..."
+      "tags tags tags tags ..."
+      "sponsor sponsor sponsor sponsor ...";
   }
 
   .frame .frame__tags {
     align-self: end;
   }
 
-  .frame .frame__demos,
   .frame #cdawrap {
-    justify-self: end;
-    text-align: right;
+    align-self: end;
     max-width: 300px;
   }
 }

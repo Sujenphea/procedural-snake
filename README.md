@@ -2,11 +2,11 @@
 
 This project explores procedural snake motion using steering forces, endless curve generation, and instanced GPU rendering to create smooth, responsive movement in real time.
 
-![WebGL Snake Demo](https://generative-placeholders.glitch.me/image?width=800&height=600)
+![WebGL Snake Demo](https://tympanus.net/codrops/wp-content/uploads/2026/02/snake.webp)
 
-[Article on Codrops](https://tympanus.net/codrops/?p=)
+[Article on Codrops](https://tympanus.net/codrops/?p=108307)
 
-[Demo](https://tympanus.net/Tutorials/.../)
+[Demo](https://tympanus.net/Tutorials/WebGLSnakeAnimation/)
 
 ## Features
 
